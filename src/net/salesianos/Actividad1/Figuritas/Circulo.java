@@ -1,5 +1,12 @@
 package net.salesianos.Actividad1.Figuritas;
 
-public class Circulo {
+import net.salesianos.Actividad1.Interfaz.CalculoMat;
+
+public class Circulo implements CalculoMat  {
+
+    private double radio;
+    private double altura;
+
+    
     
 }

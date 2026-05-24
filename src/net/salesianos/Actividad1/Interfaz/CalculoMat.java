@@ -1,5 +1,10 @@
 package net.salesianos.Actividad1.Interfaz;
 
-public class CalculoMat {
-    
+public interface CalculoMat {
+
+    double calcularArea();
+
+    double calcularPerimetro();
+
 }
+// WOW QUE MATEMATIcO
