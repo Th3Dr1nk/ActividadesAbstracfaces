@@ -1,10 +1,10 @@
-import net.salesianos.Actividad2.VolanteGiraGira.Coche;
-import net.salesianos.Actividad2.ElCoche.porscheGT3RS;  // ✅ paquete correcto
+// import net.salesianos.Actividad2.VolanteGiraGira.Coche;
+import net.salesianos.Actividad2.ElCoche.porscheGT3RS;  
 
 public class MainActividad2 {
 
     public static void main(String[] args) {
-        porscheGT3RS coche = new porscheGT3RS(  // ✅ tipo concreto, nombre correcto
+        porscheGT3RS coche = new porscheGT3RS(  
                 "Rojo",
                 2,
                 4,
@@ -27,10 +27,10 @@ public class MainActividad2 {
         }
 
         separador("Nivel de combustible actual");
-        System.out.println("  Combustible restante: " + coche.getLitrosCombustible()); // ✅
+        System.out.println("  Combustible restante: " + coche.getLitrosCombustible()); 
 
         separador("Modificando combustible a 2 litros y moviendo 3 veces");
-        coche.setLitrosCombustible(2.0); // ✅
+        coche.setLitrosCombustible(2.0); 
 
         for (int i = 1; i <= 3; i++) {
             System.out.print("  Movimiento extra " + i + ": ");
