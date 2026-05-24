@@ -2,4 +2,4 @@
 
 <img src="">
 
-## Descripción
+## REAME DESARROLLADO POR LA IA Y EDITADO POR MI (NO ME LO CREO NI YO)
